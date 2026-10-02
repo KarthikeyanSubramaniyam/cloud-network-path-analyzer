@@ -1,0 +1,22 @@
+{
+  "assets": [
+    {
+      "id": "i-demo",
+      "public_ip": "203.0.113.10",
+      "routes": [
+        {
+          "cidr": "0.0.0.0/0",
+          "gateway": "igw-demo"
+        }
+      ],
+      "ingress": [
+        {
+          "cidr": "0.0.0.0/0",
+          "protocol": "tcp",
+          "port": 22
+        }
+      ]
+    }
+  ]
+}
+
